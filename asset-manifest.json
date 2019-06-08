@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/calendeer/static/css/main.fcd65e8a.chunk.css",
+    "main.js": "/calendeer/static/js/main.b1850ac8.chunk.js",
+    "main.js.map": "/calendeer/static/js/main.b1850ac8.chunk.js.map",
+    "runtime~main.js": "/calendeer/static/js/runtime~main.98631972.js",
+    "runtime~main.js.map": "/calendeer/static/js/runtime~main.98631972.js.map",
+    "static/js/2.51f535e0.chunk.js": "/calendeer/static/js/2.51f535e0.chunk.js",
+    "static/js/2.51f535e0.chunk.js.map": "/calendeer/static/js/2.51f535e0.chunk.js.map",
+    "index.html": "/calendeer/index.html",
+    "precache-manifest.51a3982e9535834533a2d927f461b7f3.js": "/calendeer/precache-manifest.51a3982e9535834533a2d927f461b7f3.js",
+    "service-worker.js": "/calendeer/service-worker.js",
+    "static/css/main.fcd65e8a.chunk.css.map": "/calendeer/static/css/main.fcd65e8a.chunk.css.map",
+    "static/media/logo.svg": "/calendeer/static/media/logo.1741cfe1.svg"
+  }
+}
