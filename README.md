@@ -8,6 +8,9 @@ Project is live here: https://mitchpatterson.github.io/calendeer/.
 ### `What's next?`
 Over the next few iterations, I plan on allowing user downloading of the calendars in PDF form for printing. Saving the calendars per session will also be explored.
 
+### `Design - Mood board`
+![alt text](Calendeer_moodboard.png)
+
 ### `Technologies`
 Demo of React capabilities powered by the [Unsplash](https://unsplash.com/documentation) Development API.
 
