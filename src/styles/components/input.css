@@ -1,0 +1,23 @@
+.component_input {
+	-webkit-appearance: none;
+    max-width: 300px;
+    width: 80%;
+    border: 0;
+    padding: 12px 0;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: all .5s ease;
+}
+
+.component_input:hover {
+	background-color: rgba(39, 40, 56, 0.2);
+}
+
+.component_input:focus {
+	background: none;
+	outline: none;
+}

@@ -1,0 +1,68 @@
+.component_header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	transition: height 0.2s ease;
+}
+
+.component_header h1 {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 60px;
+	z-index: 31;
+}
+
+.component_header h6 {
+	font-size: 18px;
+	color: #3A606E;
+	z-index: 31;
+}
+
+.component_header button {
+	margin-top: 20px;
+	z-index: 31;
+}
+
+.component_header.initialized {
+	height: 100px;
+}
+
+.component_header.initialized h1 {
+	font-size: 18px;
+	z-index: 31;
+}
+
+.component_header .credits {
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	display: flex;
+	transform: translate(-50%, 0);
+	align-items: center;
+	z-index: 31;
+}
+
+.component_header .credits a {
+	color: white;
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+.component_header .logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 30;
+}
+
+.component_header .logo img {
+	width: 200px;
+}

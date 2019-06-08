@@ -1,0 +1,52 @@
+.component_flyout {
+	position: absolute;
+	top: 0;
+	left: -400px;
+	height: 100%;
+	width: 100%;
+	transition: background-color 0.5s ease, left 0.5s ease;;
+	background-color: transparent;
+	z-index: 999;
+	text-align: left;
+	pointer-events: none;
+	overflow: auto;
+}
+
+.component_flyout h6 {
+	color: white;
+	font-style: italic;
+	animation: pulse 5s infinite;
+	font-weight: bold;
+}
+
+.component_flyout .search_criteria .component_input:nth-child(2) {
+	margin-bottom: 40px;
+}
+
+.flyout_content {
+	height: 100%;
+	width: 400px;
+	background-color: #3A606E;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.component_flyout.active {
+	background-color: rgba(255,255,255, 0.8);
+}
+
+.component_flyout.active {
+	left: 0;
+	pointer-events: auto;
+}
+
+.flyout_content .search_criteria {
+	padding: 50px 0 20px 0;
+}
+
+@keyframes pulse {
+	0% {transform: scale(1);}
+	10% {transform: scale(1.05);}
+	20% {transform: scale(1);}
+	100% {transform: scale(1);}
+}

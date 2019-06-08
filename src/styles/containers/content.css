@@ -1,0 +1,16 @@
+.container_content {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.container_content .pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 0;
+}
+
+.container_content .pagination button:first-child {
+	margin-right: 30px;
+}
