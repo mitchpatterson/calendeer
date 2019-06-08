@@ -2,6 +2,9 @@
 ### `About`
 Calendeer is an photo inspired application that grabs the latest animal (by default, but you can choose whatever category you want) photos based on your keyword search and creates a desktop calendar.
 
+### `Demo`
+Project is live here: https://mitchpatterson.github.io/calendeer/.
+
 ### `What's next?`
 Over the next few iterations, I plan on allowing user downloading of the calendars in PDF form for printing. Saving the calendars per session will also be explored.
 
